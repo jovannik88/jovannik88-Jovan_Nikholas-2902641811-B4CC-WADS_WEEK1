@@ -19,3 +19,15 @@ Git Workflow :
 3. Commit: You run git commit. Git takes everything in the Staging Area and wraps it into a permanent snapshot with a message. This is now safely stored in your Local Repository.
 4 .Push: You run git push. This sends your local commits to a Remote Repository for safekeeping or collaboration
 
+Git Operating Principal :
+
+1. Snapshots, Not Differences: Most systems store a base file and a list of edits. Git creates a miniature "filesystem" snapshot. If a file hasn't changed, Git doesn't copy it again—it just creates a link to the previous version to save space.
+
+2. Integrity (Hashing): Everything in Git is check-summed using a SHA-1 hash (a long string of characters like 4a2b1...). This means it's impossible to change the contents of a file or a folder without Git knowing about it.
+
+Git Branching and Merging :
+
+Git operates using Pointers.
+1. A Branch is just a lightweight pointer to a specific commit.
+2. HEAD is a special pointer that tells Git which branch you are currently working on.
+When you create a branch, Git simply creates a new pointer; it doesn't duplicate your files. This is why branching in Git is so much faster than in other version control systems.
