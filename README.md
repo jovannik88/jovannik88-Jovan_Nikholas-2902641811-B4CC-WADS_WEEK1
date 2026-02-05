@@ -34,3 +34,11 @@ Git operates using Pointers.
 1. A Branch is just a lightweight pointer to a specific commit.
 2. HEAD is a special pointer that tells Git which branch you are currently working on.
 When you create a branch, Git simply creates a new pointer; it doesn't duplicate your files. This is why branching in Git is so much faster than in other version control systems.
+
+Git History :
+
+In 2005, the Linux Kernel was being managed using a proprietary tool called BitKeeper. The company behind BitKeeper offered it to the Linux team for free, but a licensing dispute broke out when a Linux developer tried to reverse-engineer the BitKeeper protocols.
+
+BitKeeper's owner got angry and revoked the free license. This left Linus Torvalds (the creator of Linux) in a massive bind. He hated all the other existing version control systems (like CVS or SVN), famously saying they were examples of "exactly what not to do."
+
+So, he did what any genius would do: he took a one-week "vacation" to write his own tool from scratch.
