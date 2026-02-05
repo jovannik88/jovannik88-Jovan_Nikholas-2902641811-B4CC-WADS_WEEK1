@@ -42,3 +42,9 @@ In 2005, the Linux Kernel was being managed using a proprietary tool called BitK
 BitKeeper's owner got angry and revoked the free license. This left Linus Torvalds (the creator of Linux) in a massive bind. He hated all the other existing version control systems (like CVS or SVN), famously saying they were examples of "exactly what not to do."
 
 So, he did what any genius would do: he took a one-week "vacation" to write his own tool from scratch.
+
+
+By doing this assignment, Now I'm Comitted on Using Github in my project
+
+Thank you, 
+Jovan Nikholas
